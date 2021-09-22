@@ -27,12 +27,8 @@ a{
 
 .navbar {
     text-align: right;
-    padding: 100px 0px 20px 0px;
+    padding: 200px 0px 20px 0px;
 }
-
-/* .navbar img {
-    width: 22.5%,
-} */
 
 #hero{
     margin: 0% 0% 8% 0%;
@@ -151,7 +147,7 @@ a{
 
     .navbar {
         text-align: center;
-        padding: 70px 0px 10px 0px;
+        padding: 50px 0px 10px 0px;
     }
 
     .navbar img{
