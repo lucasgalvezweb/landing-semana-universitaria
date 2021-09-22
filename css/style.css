@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'adelle-bold';
+    src: url('../fonts/adelle/Adelle_Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'adelle-light';
+    src: url('../fonts/adelle/Adelle_light.woff') format('woff');
+}
+
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height:100%;
+    min-height:100%;
+    background: url(../img/LANDING-INTEGRAUTEC.png) no-repeat center center fixed;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar {
+    text-align: right;
+    padding: 100px 0px 20px 0px;
+}
+
+/* .navbar img {
+    width: 22.5%,
+} */
+
+#hero{
+    margin: 0% 0% 8% 0%;
+}
+
+.container{
+    margin: 0px 12%;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-render {
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1.5fr 0.2fr 1.5fr;
+    column-gap: 2em;
+}
+
+.grid-2l {
+    display: grid;
+    grid-template-columns: 2fr 5.3fr;
+    column-gap: 0.5em;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 2fr;
+    column-gap: 2em;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0em;
+}
+
+#hero h1{
+    display: block;
+    font-size: 2.5rem;
+    position: relative;
+    font-family: 'adelle-bold', serif;
+    padding: 15px 0px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* .sub-section-02 div{
+    padding: 10px 5px;
+} */
+
+#hero .btn-sala-principal {
+    display: block;
+    padding: 10px 30px;
+    color: white;
+    font-size: 2rem;
+    font-family: 'adelle-light', serif;
+    background-color: transparent;
+    border: 2px solid white;
+    text-transform: uppercase;
+    border-color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#hero .btn-sala-principal:hover {
+    background-color: transparent;
+    border-color: black;
+    color: black;
+}
+
+#hero .cta-buttons {
+    display: block;
+    color: white;
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    font-family: 'adelle-light', serif;
+    background-color: transparent;
+    border: 2px solid white;
+    text-transform: uppercase;
+    border-color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+#hero .cta-buttons:hover{
+    background-color: transparent;
+    border-color: black;
+    color: black;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .container{
+        margin: 0px 2%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0em;
+    }
+
+    .grid-2l {
+        display: grid;
+        grid-template-columns: 2.1fr 5.4fr;
+        column-gap: 0.5em;
+    }
+
+    .navbar {
+        text-align: center;
+        padding: 70px 0px 10px 0px;
+    }
+
+    .navbar img{
+        width: 50%;
+    }
+
+    #hero .cta-buttons {
+        min-height: 45px;
+    }
+
+    .sub-section-02 div {
+        padding: 2px 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container{
+        margin: 0px 2%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0em;
+    }
+
+    .grid-2l {
+        display: grid;
+        grid-template-columns: 2.2fr 5.4fr;
+        column-gap: 0em;
+    }
+
+    .navbar {
+        text-align: center;
+        padding: 100px 0px 20px 0px;
+    }
+
+    .navbar img{
+        width: 50%;
+    }
+
+    #hero .cta-buttons {
+        min-height: 45px;
+    }
+
+    .sub-section-02 div {
+        padding: 2px 5px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .container{
+        margin: 0px 2%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0em;
+    }
+
+    .grid-2l {
+        display: grid;
+        grid-template-columns: 2fr 5.3fr;
+        column-gap: 0.5em;
+    }
+
+    .navbar {
+        text-align: center;
+        padding: 100px 0px 20px 0px;
+    }
+
+    .navbar img{
+        width: 50%;
+    }
+
+    #hero .cta-buttons {
+        min-height: 45px;
+    }
+
+    .sub-section-02 div {
+        padding: 2px 5px;
+    }
+}
